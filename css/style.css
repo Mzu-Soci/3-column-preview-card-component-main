@@ -3,11 +3,9 @@
     padding: 0;
 }
 
-
-
 body {
     background-color: hsl(0, 0%, 95%);
-    
+    font-size: 15px;
 }
 
 img {
@@ -28,6 +26,7 @@ p {
     font-family: 'Lexend Deca', sans-serif;
 }
 
+/* Buttons */
 button {
     border-radius: 100px;
     border-style: none;
@@ -65,14 +64,13 @@ button {
     border: 1px hsl(0, 0%, 95%) solid;
 }
 
+/* Vehicle Category */
 .category {
     padding: 3em;
 }
 
 .category-1 {
     background-color: hsl(31, 77%, 52%);
-}
-.category-1 {
     border-radius: 10px 10px 0 0;
 }
 
@@ -82,12 +80,10 @@ button {
 
 .category-3 {
     background-color: hsl(179, 100%, 13%);
-}
-
-.category-3 {
     border-radius: 0 0 10px 10px;
 }
 
+/* Mobile Site Media Queries */
 @media only screen and (max-width: 600px) {
     .container {
         border-radius: 10px;
@@ -95,12 +91,10 @@ button {
         margin: auto;
         margin-top: 4em;
     }
-
-
-
 }
 
-/* @media only screen and (min-width: 600px) {
+/* Desktop Site Media Queries */
+@media only screen and (min-width: 600px) {
     .container {
         border-radius: 10px;
         max-width: 1000px;
@@ -126,6 +120,8 @@ button {
     p {
         margin-bottom: 6em;
     }
+}
 
-
-} */
+/* Attribution */
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
